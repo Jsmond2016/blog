@@ -6,28 +6,29 @@
 
 ## 手写系列
 
-- 手写 bind，call，apply
-- 手写 new
-- 手写 instanceof
-- 手写 Object.create
-- 手写 Array.isArray
-- 手写 各种继承
-- 手写 防抖节流
-- 手写 柯里化
-- 手写 数组扁平化
-- 手写 深、浅拷贝
-- 手写 发布订阅模式
-- 手写 promise，async await
-- 手写 webpack loader，plugin
-- 手写 数组方法：map，reduce，filter，forEach 等
-- 手写 react 相关：react router，redux，react diff 算法
-- 手写 vue 相关：vue router，vuex，vue diff 算法
-- 手写 nodejs 相关：express，koa，中间件，http-server 等
+- [x] 手写 bind，call，apply
+- [x] 手写 new
+- [ ] 手写 instanceof
+- [ ] 手写 Object.create
+- [x] 手写 Array.isArray
+- [ ] 手写 各种继承：寄生式继承，组合继承，原型继承
+- [x] 手写 防抖节流
+- [ ] 手写 柯里化
+- [ ] 手写 数组扁平化
+- [ ] 手写 深、浅拷贝
+- [x] 手写 发布订阅模式
+- [ ] 手写 promise，async await
+- [ ] 手写 webpack loader，plugin
+- [ ] 手写 vite, vite-plugin
+- [ ] 手写 数组方法：map，reduce，filter，forEach 等
+- [ ] 手写 react 相关：react router，redux，react diff 算法
+- [ ] 手写 vue 相关：vue router，vuex，vue diff 算法
+- [ ] 手写 nodejs 相关：express，koa，中间件，http-server 等
 
 参考资料：
 
  - [写给自己的手写代码](https://juejin.cn/post/6924912691102351368)
-
+ - [Vite工作原理和手写实现「基本完结」](https://www.bilibili.com/video/BV1dh411S7Vz)
 ## 手写 答题/实战 系列
 
 - 手写 sum(1)(1,2,3)(1)

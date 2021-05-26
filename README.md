@@ -19,9 +19,14 @@
 - [x] 手写 发布订阅模式
 - [ ] 手写 promise，async await
 - [ ] 手写 webpack loader，plugin
-- [ ] 手写 vite, vite-plugin
+- [ ] Vue3 相关
+  - [x] [手写 vite 原理](./kvite/README.md)
+  - [ ] vite-plugin
 - [ ] 手写 数组方法：map，reduce，filter，forEach 等
-- [ ] 手写 react 相关：react router，redux，react diff 算法
+- [ ] 手写 react 相关：
+  - [x] [react-router](./react-router-dom-nut/README.md)
+  - [ ] redux
+  - [ ] react diff 算法
 - [ ] 手写 vue 相关：vue router，vuex，vue diff 算法
 - [ ] 手写 nodejs 相关：express，koa，中间件，http-server 等
 
@@ -141,5 +146,4 @@ ajax 的操作
 - Linux 基础命令行
 - Git 基础命令
 - Bash 编程
-
 

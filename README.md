@@ -15,7 +15,7 @@
 - [x] 手写 防抖节流
 - [ ] 手写 柯里化
 - [ ] 手写 数组扁平化
-- [ ] 手写 深、浅拷贝
+- [x] 手写 深、浅拷贝
 - [x] 手写 发布订阅模式
 - [ ] 手写 promise，async await
 - [ ] 手写 webpack loader，plugin
@@ -54,36 +54,23 @@
 
 移动端相关方案
 
-## JavaScript 系列
+## JavaScript 高级系列
 
-基础为 数组，字符串，对象的基本操作方法
-
-进阶为 this，原型和原型链，闭包等问题
-
-## jQuery
-
-常见的 dom 操作，css 操作
+- this
+- 原型链
+- 闭包
+- 作用域
 
 ## Typescript 系列
 
 基本方法的使用，相关资料的整理总结
 
+## 框架系列
 
-## React 系列
+- React & React Hooks
+- Vue & Vue 3
 
-基本的使用方式
 
-原理探究，响应式，双向绑定，路由，状态管理，hooks
-
-源码相关
-
-## Vuejs 系列
-
-基本的使用方式，以及 Vue3 的新特性
-
-原理探究，响应式，双向绑定，路由，状态管理
-
-源码相关
 
 ## Nodejs 系列
 
@@ -94,8 +81,6 @@
 - Koa2
 - Egg.js
 
-## 小程序系列
-
 
 
 
@@ -104,7 +89,7 @@
 - MongoDB
 - MySQL
 
-## HTTP 和 AJAX
+## HTTP
 主要为 http 的基本知识
 
 ajax 的操作

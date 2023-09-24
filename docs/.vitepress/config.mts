@@ -52,6 +52,7 @@ function createNav() {
     { text: "技术文章", link: "/notes/tech/index" },
     { text: "随笔", link: "/notes/informal-essay/index" },
     { text: "面经汇总", link: "/notes/interview/index" },
+    { text: "算法学习", link: "https://jsmond2016.github.io/leetcode/" },
     { text: "作品集", link: "/notes/portfolio/index" },
     { text: "关于我", link: "/notes/about-me/index" },
   ]

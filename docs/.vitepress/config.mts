@@ -76,7 +76,7 @@ function techSidebar() {
     {
       text: "技术文章",
       items: [
-        { text: "Markdown Examples", link: "/markdown-examples" },
+        { text: "手写一个Cli", link: "/notes/tech/手写一个cli" },
         { text: "Runtime API Examples", link: "/api-examples" },
       ],
     },
@@ -87,8 +87,8 @@ function informalEssaySidebar() {
     {
       text: "杂文随笔",
       items: [
-        { text: "Markdown Examples", link: "/markdown-examples" },
-        { text: "Runtime API Examples", link: "/api-examples" },
+        // { text: "2017年终总结", link: "/notes/informal-essay/2017年终总结" },
+        // { text: "编程基础", link: "/notes/informal-essay/编程基础" },
       ],
     },
   ]

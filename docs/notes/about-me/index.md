@@ -2,11 +2,6 @@
 isTimeLine: true
 title: About Me
 date: 2023-05-03
-tags:
- - 面试
- - 手撕代码
-categories:
- - 面试
 ---
 
 # About Me

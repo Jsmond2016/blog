@@ -1,13 +1,13 @@
-import { defineConfig } from '@sugarat/theme/node'
-import { blogTheme } from './blog-theme'
+// import { defineConfig } from '@sugarat/theme/node'
+import { defineConfig } from 'vitepress';
+// import { blogTheme } from './blog-theme'
 
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 继承博客主题配置
-  extends: blogTheme,
-  lang: 'zh-cn',
+   lang: 'zh-cn',
   title: `Jsmond2016's Blog`,
   description: '黄同学的博客站点，欢迎您的访问',
   base: '/blog/',

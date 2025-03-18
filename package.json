@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@sugarat/theme": "^0.1.47",
     "element-plus": "^2.3.8",
+    "vitepress": "^1.6.3",
     "vue": "^3.3.4"
   },
   "directories": {
@@ -18,9 +18,9 @@
   },
   "devDependencies": {
     "sass": "^1.64.1",
-    "typescript": "^5.1.6",
-    "vitepress": "1.0.0-rc.14"
+    "typescript": "^5.1.6"
   },
   "author": "Jsmond2016",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@10.4.0+sha512.6b849d0787d97f8f4e1f03a9b8ff8f038e79e153d6f11ae539ae7c435ff9e796df6a862c991502695c7f9e8fac8aeafc1ac5a8dab47e36148d183832d886dd52"
 }

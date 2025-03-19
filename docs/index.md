@@ -10,7 +10,7 @@ hero:
   tagline: 前后端学习笔记和工作点滴记录；
   actions:
     - theme: brand
-      text: 每日笔记
+      text: 学习笔记
       link: /record-2025/
     - theme: alt
       text: github

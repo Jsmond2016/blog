@@ -9,7 +9,8 @@ export default defineConfig({
   lang: "zh-cn",
   title: `Jsmond2016's Blog`,
   description: "黄同学的博客站点，欢迎您的访问",
-  base: "/blog/",
+  // base: "/blog/", 部署在 vercel 的时候，这里改成 "/"
+  base: '/',
   vite: {
     optimizeDeps: {
       include: ["element-plus"],

@@ -21,7 +21,7 @@ Redux 是什么？
 
 Redux 的历史
 
-Redux = Reducer + Flux 
+` Redux = Reducer + Flux `
 
 React 在 2013 年开源的时候，也开源了辅助 React 的工具 Flux，进行数据管理，因为 Flux 自身存在了一些不足，因此有人将其升级成了 Redux
 
@@ -34,10 +34,10 @@ React 在 2013 年开源的时候，也开源了辅助 React 的工具 Flux，�
 
 以上，是 Redux 的工作流程表，为了更好理解，我们做个比喻：
 
-- React Components：借书人
-- Action Creators：借书人说的话（要借什么东西）
-- Store：图书管理员
-- Reducers：图书管理员的记录本（图书清单，名字以及分类和所在位置等）
+- `React Components`：借书人
+- `Action Creators`：借书人说的话（要借什么东西）
+- `Store`：图书管理员
+- `Reducers`：图书管理员的记录本（图书清单，名字以及分类和所在位置等）
 
 具体流程为：
 
@@ -53,10 +53,15 @@ React 在 2013 年开源的时候，也开源了辅助 React 的工具 Flux，�
 
 首先，组件通过 Action Creatures 告诉 Store 需要修改数据，Store 不知道组件需要怎样修改数据，它告诉 Reducers ，Reducers 将数据给到 Store ，然后 Store 对数据进行修改。
 
-## 使用 AnTd 实现 Todolist 的布局
+## 使用 Antd 实现 Todolist 的布局
 
 - [AntDesign 官网](https://ant.design/index-cn)
-- 安装 AntD： `yarn add antd`
+- 安装 AntD： 
+
+```bash
+yarn add antd
+```
+
 
 放入输入框，按钮，列表：
 
@@ -104,18 +109,23 @@ export default MyTodo;
 
 
 
-对于 AntD 的学习，和学习 BootStrap 方法相似，仔细阅读文档，copy 对应代码调试即可。
+对于 AntD 的学习，和学习 BootStrap 方法相似，仔细阅读文档，复制 对应代码调试即可。
 
 需要说明几个注意要点：
 
-- AntD 组件在使用前需要引入，然后使用时**首字母要大写**
-- AntD 组件使用内联的方式表示样式，需要使用 `style={{xxxAAA: '20px'}}`  的形式
+- AntD 组件在使用前需要引入，然后使用时 **首字母要大写**
+- AntD 组件使用内联的方式表示样式，需要使用 `style=xxx`  的形式
 
 
 
 ## 创建 Redux 中的 store
 
-在使用 Redux 之前，需要安装 Redux： `yarn add redux` 
+在使用 Redux 之前，需要安装 Redux：
+
+```sh
+yarn add redux
+```
+
 
 ### 创建公共数据存储仓库
 
@@ -369,7 +379,7 @@ export default (state =defaultState, action) => {
 
 
 
-此时，我们可以在 input 中输入字符，然后打开 Chrome 控制台 Redux 调试工具中 state 进行查看，是否在输入内容的时候该 state 的数据会实时更新。
+此时，我们可以在 `input` 中输入字符，然后打开 Chrome 控制台 Redux 调试工具中 state 进行查看，是否在输入内容的时候该 state 的数据会实时更新。
 
 以上，我们完成了 action，store ，reducer 的相关代码编写，也实现了提交 action 时 store 中数据跟随改变，最后一步，就是将改变后的数据渲染到 页面中。
 
@@ -934,3 +944,4 @@ reducer 先是将 state 深拷贝出一份，然后在拷贝的数据进行修�
 
 
 
+ 

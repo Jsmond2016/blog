@@ -61,7 +61,7 @@ categories: HTML
 >`例子：<a href ="javascript:;" >点击无响应</a>`
 >注：***以上参数中，只有（7）是会发起请求的，其他的都不会向服务器发起请求***
 >示例代码：
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,7 +73,8 @@ categories: HTML
 </body>
 </html>
 ```
-点击 超链接 [hello]() 后的效果，打开控制台查看请求为
+点击 超链接 `hello` 后的效果，打开控制台查看请求为
+
 ![查询参数](http://upload-images.jianshu.io/upload_images/1683063-618ee12c2f734c74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
@@ -157,7 +158,7 @@ categories: HTML
 - 常见参数一： `type="text"`,`type="password"`,`type="button"`......
   说明：在页面效果上 `<input type="submit" value="button">` 和`<button>button</button>` 是一样的 ，那么它们有什么区别呢？
   **区别：**
-- 当<form>中只有一个 `<button>`时，这个时候  `<button>` 就会自动升级为 `<input type="submit" value="button">` 进行提交数据，即 `<button>button</button> == <input type="submit" value="button">` 二者等价。
+- 当`<form>`中只有一个 `<button>`时，这个时候  `<button>` 就会自动升级为 `<input type="submit" value="button">` 进行提交数据，即 `<button>button</button> == <input type="submit" value="button">` 二者等价。
 - 当 `<form>` 的`<input type="button" value="">` 说明了`type`类型为 `button` 那么此按钮也仅仅是一个按钮，不具有提交功能。
 
 - 常见参数二：

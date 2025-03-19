@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 学习笔记
-      link: /record-2025/
+      link: /notes/tech/index
     - theme: alt
       text: github
       link: https://github.com/Jsmond2016/Jsmond2016

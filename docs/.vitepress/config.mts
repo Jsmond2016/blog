@@ -11,12 +11,6 @@ export default defineConfig({
   description: "黄同学的博客站点，欢迎您的访问",
   // base: "/blog/", 部署在 vercel 的时候，这里改成 "/"
   base: '/',
-  vite: {
-    optimizeDeps: {
-      include: ["element-plus"],
-      exclude: ["@sugarat/theme"],
-    },
-  },
   lastUpdated: true,
   themeConfig: {
     lastUpdatedText: "上次更新于",
@@ -26,15 +20,6 @@ export default defineConfig({
         'MIT Licensed | <a target="_blank" href="https://github.com/Jsmond2016/blog"> Jsmond2016/Blog </a>',
     },
     logo: "/logo.png",
-    // editLink: {
-    //   pattern:
-    //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',
-    //   text: '去 GitHub 上编辑内容'
-    // },
-    // nav: [
-    //   { text: '首页', link: '/' },
-    //   { text: '关于博主', link: 'https://github.com/Jsmond2016' }
-    // ],
     nav: createNav(),
     sidebar: createSidebar(),
     socialLinks: [
@@ -50,7 +35,10 @@ function createNav() {
   return [
     { text: "首页", link: "/" },
     { text: "技术文章", link: "/notes/tech/index" },
-    { text: "随笔", link: "/notes/informal-essay/index" },
+    {
+      text: "随笔文章",
+      link: "/notes/jottings/index",
+    },
     { text: "面经汇总", link: "/notes/interview/index" },
     {
       text: "其他站点笔记",
@@ -82,6 +70,7 @@ function createSidebar() {
     "/notes/interview/": interviewSidebar(),
     "/notes/portfolio/": portfolioSidebar(),
     "/notes/about-me/": aboutMe(),
+    "/notes/jottings/": articleSidebar(),
   };
 
   return sidebar;
@@ -98,6 +87,48 @@ function techSidebar() {
     },
   ];
 }
+
+
+function articleSidebar() {
+  return [
+    {
+      text: "随笔",
+      items: [
+        {
+          text: "PowerShell 命令行 和 git 代理配置-windows 篇",
+          link: "/notes/jottings/terminal-git-proxy",
+        },
+        {
+          text: "windows-terminal-美化教程",
+          link: "/notes/jottings/windows-terminal",
+        },
+        {
+          text: "js toFixed 四舍五入问题",
+          link: "/notes/jottings/js-to-fixed",
+        },
+        { text: "如何高效学习", link: "/notes/jottings/book-1" },
+        { text: "如何做前端技术设计", link: "/notes/jottings/book-2" },
+        { text: "Docker教程", link: "/notes/jottings/docker-note" },
+      ],
+    },
+    {
+      text: "面试",
+      items: [
+        { text: "面经整理-爪哇教育", link: "/notes/jottings/zhuawa-0404" },
+        { text: "面试冲刺", link: "/notes/jottings/fe-interview" },
+        { text: "手写js", link: "/notes/jottings/hand-js" },
+      ],
+    },
+    {
+      text: "leetcode",
+      items: [
+        { text: "leetcode难度分类", link: "/notes/jottings/leetcode-retag" },
+        { text: "leetcode目录", link: "/notes/jottings/leetcode-category" },
+      ],
+    },
+  ];
+}
+
 function informalEssaySidebar() {
   return [
     {

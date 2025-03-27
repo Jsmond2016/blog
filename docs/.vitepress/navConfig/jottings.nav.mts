@@ -1,4 +1,4 @@
-export const jottingsNav = { text: "前端进阶", link: "/notes/jottings/index" } as const;
+export const jottingsNav = { text: "随笔文章", link: "/notes/jottings/index" } as const;
 
 export const jottingsNavSideBar = {
   "/notes/jottings/": createSideBar(),
@@ -6,7 +6,7 @@ export const jottingsNavSideBar = {
 function createSideBar() {
   return [
     {
-      text: "前端进阶",
+      text: "随笔文章",
       items: [],
     },
   ];

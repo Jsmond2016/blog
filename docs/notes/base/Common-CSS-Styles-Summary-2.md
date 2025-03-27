@@ -1,9 +1,5 @@
----
-title: CSS常见样式（二）
-date: 2017-11-24 00:11:57
-tags: CSS
-categories: CSS
----
+# CSS常见样式（二）
+
 
 ##  1. `text-align: center`的作用是什么，作用在什么元素上？能让什么元素水平居中
 

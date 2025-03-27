@@ -1,9 +1,3 @@
----
-title: Vim 常用操作
-date: 2018-04-07
-tags: 
-  - vim
----
 
 # Vim 常用操作
 

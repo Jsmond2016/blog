@@ -1,9 +1,4 @@
----
-title: CSS学习资源推荐
-date: 2017-10-24 00:18:29
-tags: CSS
-categories: CSS
----
+# CSS学习资源推荐
 
 1.Google: 关键词 MDN
 >例如：想要查找`table`的相关属性，只需要在Google搜索:`table attribute MDN`

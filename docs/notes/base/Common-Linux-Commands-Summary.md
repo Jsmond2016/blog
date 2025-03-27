@@ -1,11 +1,4 @@
----
-title: 常用Linux命令行
-date: 2017-10-01 09:49:12
-tags: Linux
-categories: Linux
-thumbnail: https://i.loli.net/2017/10/07/59d85b2f1870d.jpg  
-  
----
+# 常用Linux命令行
 
 ## 1.进入目录
 
@@ -192,5 +185,5 @@ ls -help
 ls -h
 ```
 
-- 方法2：ExplainShell.com
+- 方法2：[ExplainShell.com](https://explainshell.com/)
 

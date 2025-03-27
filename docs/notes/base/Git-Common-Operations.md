@@ -1,11 +1,3 @@
----
-title: Git的常用操作
-date: 2017-10-11 23:59:54
-tags: Git
-categories: Git
-thumbnail: https://i.loli.net/2017/10/12/59de40a010840.jpg
-
----
 
 # Git的常用操作
 ![](https://tse2-mm.cn.bing.net/th?id=OIP.u0Pk-feV2uAMLCfcbXUVDwHaE8&p=0&o=5&pid=1.1)

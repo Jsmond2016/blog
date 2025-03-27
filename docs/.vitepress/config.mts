@@ -21,7 +21,7 @@ export default defineConfig({
   themeConfig: {
     lastUpdatedText: "上次更新于",
     footer: {
-      message: "自定义底部内容",
+      message: "黄同学的技术博客",
       copyright:
         'MIT Licensed | <a target="_blank" href="https://github.com/Jsmond2016/blog"> Jsmond2016/Blog </a>',
     },

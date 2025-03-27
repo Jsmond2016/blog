@@ -1,9 +1,3 @@
----
-title: Dom 事件
-date: 2018-01-24
-tags: 
-  - DOM
----
 
 # Dom 事件
 

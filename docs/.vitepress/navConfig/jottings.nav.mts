@@ -7,7 +7,12 @@ function createSideBar() {
   return [
     {
       text: "随笔文章",
-      items: [],
+      items: [
+        {
+          text: "2017年终总结",
+          link: "/notes/jottings/2017-Year-End-Summary",
+        }
+      ],
     },
   ];
 }

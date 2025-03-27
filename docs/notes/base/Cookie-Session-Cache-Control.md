@@ -1,18 +1,9 @@
----
-title: Session、LocalStorage与SessionStorage
-date: 2018-02-03
-tags: 
-  - Session
-  - LocalStorage
-  - SessionStorage
----
-
 
 # Session、LocalStorage与SessionStorage
 
 > Cookie 存在的问题
 >
-> 在上一篇文章[Cookie 小知识](http://jsmond.info/2018/02/05/Cookie-%E5%B0%8F%E7%9F%A5%E8%AF%86/) 中，我们知道，用户可以随意篡改 Cookie，针对这一弊端，我们引出今天的话题 **Session**   
+> 在上一篇文章[Cookie 小知识](/notes/base/Cookie.html) 中，我们知道，用户可以随意篡改 Cookie，针对这一弊端，我们引出今天的话题 **Session**   
 
 ## Session
 

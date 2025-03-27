@@ -1,13 +1,4 @@
----
-title: 编程基础
-date: 2017-10-01 09:44:15
-tags: 
-- 前端
-categories: 
-- 前端
-thumbnail: https://i.loli.net/2017/10/07/59d85d786a6e3.jpg
-
----
+# 编程基础
 
 ## 1.为什么要学习编程基础
 

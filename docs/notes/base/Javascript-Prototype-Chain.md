@@ -1,10 +1,3 @@
----
-title: js面向对象--原型(Prototype)和原型链
-date: 2018-04-23
-tags: 
-  - 原型链
-  - 对象
----
 
 # js面向对象--原型(Prototype)和原型链
 

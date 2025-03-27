@@ -1,6 +1,7 @@
 # 前端基础
 
 - Linux
+- Vim
 - Git
 - CSS
 - JavaScript

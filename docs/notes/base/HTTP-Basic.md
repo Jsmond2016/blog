@@ -1,10 +1,6 @@
----
-title: HTTP小记
-date: 2017-10-19 23:01:42
-tags: HTTP
-categories: HTTP
-thumbnail: https://i.loli.net/2017/10/19/59e8bf22015b6.png
----
+
+
+# HTTP小记
 
 
 ## 1.WWW (World Wide Web) 的由来

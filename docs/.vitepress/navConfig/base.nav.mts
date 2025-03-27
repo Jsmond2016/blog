@@ -9,6 +9,11 @@ function createSideBar() {
       text: "Linux",
       items: [
         {
+          text: "编程基础",
+          link: "/notes/base/Program-Basics",
+        },
+
+        {
           text: "Linux 常用命令行",
           link: "/notes/base/Common-Linux-Commands-Summary",
         },
@@ -62,6 +67,57 @@ function createSideBar() {
           text: "CSS学习资源推荐",
           link: "/notes/base/CSS-Learning-Resources-Recommendation",
         },
+      ],
+    },
+    {
+      text: "JavaScript",
+      items: [
+        {
+          text: "全局变量污染和立即执行函数",
+          link: "/notes/base/Global-Variable-Pollution-and-Immediately-Invoked-Function-Expression",
+        },
+        {
+          text: "Dom 事件",
+          link: "/notes/base/DOM-Event-Model",
+        },
+        {
+          text: "js面向对象--原型(Prototype)和原型链",
+          link: "/notes/base/Javascript-Prototype-Chain",
+        },
+        {
+          text: "JSONP",
+          link: "/notes/base/JSONP",
+        },
+      ],
+    },
+    {
+      text: "Chrome",
+      items: [
+        {
+          text: "Cookie 小知识",
+          link: "/notes/base/Cookie",
+        },
+        {
+          text: "Cookie-Session-Cache-Control",
+          link: "/notes/base/Cookie-Session-Cache-Control",
+        },
+      ],
+    },
+    {
+      text: "HTTP",
+      items: [
+        {
+          text: "HTTP小记",
+          link: "/notes/base/HTTP-Basic",
+        },
+        {
+          text: "HTTP-Cache",
+          link: "/notes/base/HTTP-Cache",
+        },
+        {
+          text: "HTTP常见状态码",
+          link: "/notes/base/HTTP-Status-Code",
+        }
       ],
     },
   ];

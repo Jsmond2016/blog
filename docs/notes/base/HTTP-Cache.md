@@ -1,10 +1,3 @@
----
-title: HTTP缓存
-date: 2018-02-07
-tags: 
-   - Chrome
-   - Cookie
----
 
 # HTTP缓存
 

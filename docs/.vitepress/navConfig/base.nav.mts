@@ -104,6 +104,103 @@ function createSideBar() {
       ],
     },
     {
+      text: "Nodejs 系列",
+      items: [
+        {
+          text: "Node.js",
+          items: [
+            {
+              text: "nodejs如何读取文件夹目录的内容",
+              link: "/notes/base/nodejs/nodejs-fs-readdir",
+            },
+          ],
+        },
+
+        {
+          text: "Express.js",
+          items: [
+            {
+              text: "1-初始express",
+              link: "/notes/base/express/express-01",
+            },
+            {
+              text: "2-了解后端路由",
+              link: "/notes/base/express/express-02",
+            },
+            {
+              text: "3-配置静态资源",
+              link: "/notes/base/express/express-03",
+            },
+            // 4-解析请求体
+            {
+              text: "4-解析请求体",
+              link: "/notes/base/express/express-04",
+            },
+            // 5-文件上传-前端操作
+            {
+              text: "5-文件上传-前端操作",
+              link: "/notes/base/express/express-05",
+            },
+            // 6-文件上传-单名字单文件上传
+            {
+              text: "6-文件上传-单名字单文件上传",
+              link: "/notes/base/express/express-06",
+            },
+            // 7-文件上传-单名字多文件上传
+            {
+              text: "7-文件上传-单名字多文件上传",
+              link: "/notes/base/express/express-07",
+            },
+            // 8-文件上传-多名字多文件上传
+            {
+              text: "8-文件上传-多名字多文件上传",
+              link: "/notes/base/express/express-08",
+            },
+            // 9-cookie操作和设置
+            {
+              text: "9-cookie操作和设置",
+              link: "/notes/base/express/express-09",
+            },
+            // 10-session的设置和操作
+            {
+              text: "10-session的设置和操作",
+              link: "/notes/base/express/express-10",
+            },
+            // 12-art-template服务端渲染
+            {
+              text: "12-art-template服务端渲染",
+              link: "/notes/base/express/express-12",
+            },
+            // 13-中间件
+            {
+              text: "13-中间件",
+              link: "/notes/base/express/express-13",
+            },
+            // 14-了解MVC开发模式
+            {
+              text: "14-了解MVC开发模式",
+              link: "/notes/base/express/express-14",
+            },
+            // 15-了解token
+            {
+              text: "15-了解token",
+              link: "/notes/base/express/express-15",
+            },
+          ],
+        },
+        {
+          text: "Koa.js",
+          items: [
+            {
+              text: "koa-study",
+              link: "/notes/base/koa/koa-study",
+            },
+          ],
+        },
+      ],
+    },
+
+    {
       text: "HTTP",
       items: [
         {
@@ -117,7 +214,7 @@ function createSideBar() {
         {
           text: "HTTP常见状态码",
           link: "/notes/base/HTTP-Status-Code",
-        }
+        },
       ],
     },
   ];

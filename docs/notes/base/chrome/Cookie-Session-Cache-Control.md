@@ -3,7 +3,7 @@
 
 > Cookie 存在的问题
 >
-> 在上一篇文章[Cookie 小知识](/notes/base/Cookie.html) 中，我们知道，用户可以随意篡改 Cookie，针对这一弊端，我们引出今天的话题 **Session**   
+> 在上一篇文章[Cookie 小知识](/notes/base/chrome/Cookie.html) 中，我们知道，用户可以随意篡改 Cookie，针对这一弊端，我们引出今天的话题 **Session**   
 
 ## Session
 

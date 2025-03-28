@@ -1,43 +1,16 @@
-## TODOS
+# 黄同学的博客
 
-- [x] 搭建 vitepress 风格博客；(2023-9-17)
-- [x] 引入 博客主题；(2023-9-17)
-- [ ] 优化常用功能：首页、标签、目录、创建日期、翻页 等；
-- [ ] 加入之前写的博客笔记：
-  - [x] blog-2 备份文件夹
-  - [ ] github issue 记录；
-  - [ ] github 仓库记录；
-  - [ ] 掘金等其他平台记录；
-  - [ ] 笔记软件：语雀、印象笔记、有道云等；
-- 确定后续博客更新计划；
+自 2025 年 3 月 重新整理；
 
-
-# vitepress @sugarat/theme
-简约风的 [Vitepress 博客主题](https://theme.sugarat.top)
-
-## Usage
-先安装 `pnpm`
+## 启动方式
 
 ```sh
-npm i -g pnpm
-```
+# install dependencies
+pnpm i
 
-安装依赖
-```sh
-pnpm install
-```
-
-开发启动
-```sh
+# start dev server  http://localhost:5173/
 pnpm dev
-```
 
-构建
-```sh
+# build for production
 pnpm build
-```
-
-预览产物
-```sh
-pnpm serve
 ```

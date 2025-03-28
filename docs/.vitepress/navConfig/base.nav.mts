@@ -30,7 +30,7 @@ export const baseNav = {
       link: "/notes/base/http",
     },
   ],
-} as const;
+}
 
 export const baseNavSideBar = {
   "/notes/base/common": [

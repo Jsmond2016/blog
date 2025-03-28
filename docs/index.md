@@ -10,11 +10,17 @@ hero:
   tagline: 前后端学习笔记和工作点滴记录；
   actions:
     - theme: brand
-      text: 学习笔记
-      link: /notes/tech/index
+      text: 前端基础
+      link: /notes/base/common/
+    - theme: brand
+      text: 前端进阶
+      link: notes/advance/
+    - theme: brand
+      text: 随笔文章
+      link: /notes/jottings/
     - theme: alt
       text: github
-      link: https://github.com/Jsmond2016/Jsmond2016
+      link: https://github.com/Jsmond2016/blog
   image:
     src: /vitepress-logo-large.jpg
     alt: VitePress

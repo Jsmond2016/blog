@@ -5,7 +5,7 @@
 - [命令速查-官方文档](https://github.com/VSCodeVim/Vim/blob/15dbe0b415f269a5be14dc74651a69b9334fba14/ROADMAP.ZH.md)
 - [vscodevim/vim](https://github.com/vscodevim/vim)
 - [10 VS Code Vim Tricks to Boost Your Productivity ⚡ - DEV Community](https://dev.to/ansonh/10-vs-code-vim-tricks-to-boost-your-productivity-1b0n) 拓展文档
-
+- [Just Vim It | Just Vim It](https://vim.nauxscript.com/) 推荐阅读!!!!!!
 
 ## 常用命令
 

@@ -50,6 +50,14 @@ export const baseNavSideBar = {
           text: "Vim 常用操作",
           link: "/notes/base/common/Vim-Common-Operations",
         },
+        {
+          text: "我的 vimrc 配置",
+          link: "/notes/base/common/Vimrc-Config",
+        },
+        {
+          text: "vscode-vim 配置",
+          link: "/notes/base/common/Vscode-Vim-Config",
+        },
       ],
     },
     {

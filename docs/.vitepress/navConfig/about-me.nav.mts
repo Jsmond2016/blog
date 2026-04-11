@@ -7,7 +7,7 @@ function createSideBar() {
   return [
     {
       text: "关于我",
-      items: [],
+      items: [{ text: "总览", link: "/notes/about-me/index" }],
     },
   ];
 }

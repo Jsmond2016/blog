@@ -9,6 +9,10 @@ function createSideBar() {
       text: "随笔文章",
       items: [
         {
+          text: "总览",
+          link: "/notes/jottings/index",
+        },
+        {
           text: "2017年终总结",
           link: "/notes/jottings/2017-Year-End-Summary",
         }

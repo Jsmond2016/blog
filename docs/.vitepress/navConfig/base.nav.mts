@@ -2,6 +2,10 @@ export const baseNav = {
   text: "前端基础",
   items: [
     {
+      text: "总览",
+      link: "/notes/base/index",
+    },
+    {
       text: "编程基础",
       link: "/notes/base/common",
     },
@@ -30,7 +34,7 @@ export const baseNav = {
       link: "/notes/base/http",
     },
   ],
-}
+} as const;
 
 export const baseNavSideBar = {
   "/notes/base/common": [

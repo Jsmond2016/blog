@@ -1,5 +1,3 @@
-import { te } from 'element-plus/es/locales.mjs';
-
 export const advanceNav = { text: "前端进阶", link: "/notes/advance/index" } as const;
 
 export const advanceNavSideBar = {
@@ -8,7 +6,11 @@ export const advanceNavSideBar = {
 function createSideBar() {
   return [
     {
-      text: "杂文",
+      text: "前端进阶",
+      items: [{ text: "总览", link: "/notes/advance/index" }],
+    },
+    {
+      text: "专题文章",
       items: [
         {
           text: "浅谈前端路由",

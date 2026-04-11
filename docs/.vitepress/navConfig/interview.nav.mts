@@ -9,7 +9,7 @@ function createSideBar() {
   return [
     {
       text: "面试和八股文",
-      items: [],
+      items: [{ text: "总览", link: "/notes/interview/index" }],
     },
   ];
 }

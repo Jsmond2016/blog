@@ -1,11 +1,23 @@
 # 前端基础
 
-- Linux
-- Vim
-- Git
-- CSS
-- JavaScript
-- 浏览器
-- TypeScript
-- Nodejs / Express / Koa / Nestjs
-- HTTP
+这里主要整理前端开发中最常用、也最需要反复回看的基础内容。它们未必复杂，但决定了工程实践是否扎实。
+
+## 这一栏适合谁
+
+- 想系统补齐前端基础的学习者；
+- 想回查常用知识点和工具操作的开发者；
+- 想把零散基础重新串成结构的读者。
+
+## 主要内容
+
+- 编程基础：Linux、Vim、Git 等日常开发必备能力；
+- CSS：选择器、布局、响应式、REM 等前端样式基础；
+- JavaScript：原型链、事件、JSONP 等核心知识点；
+- 浏览器与 HTTP：理解 Cookie、Session、缓存和请求响应机制；
+- TypeScript 与 Node.js：向工程开发过渡时常见的基础能力补充。
+
+## 推荐阅读方式
+
+- 如果你在补基础，建议从“编程基础”和 “JavaScript”开始；
+- 如果你更偏业务开发，可以优先看 CSS、浏览器和 HTTP；
+- 如果你准备往工程化或全栈方向延展，再继续看 TypeScript 和 Node.js。

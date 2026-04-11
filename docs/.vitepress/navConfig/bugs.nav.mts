@@ -10,7 +10,7 @@ function createSideBar() {
   return [
     {
       text: "bug和坑",
-      items: [],
+      items: [{ text: "总览", link: "/notes/bugs/index" }],
     },
   ];
 }

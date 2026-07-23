@@ -6,6 +6,7 @@ import { bugsNav, bugsNavSideBar } from './navConfig/bugs.nav.mts';
 import { interviewNav, interviewNavSideBar } from './navConfig/interview.nav.mts';
 import { portfolioNav, portfolioNavSideBar } from './navConfig/portfolio.nav.mts';
 import { aboutMeNav, aboutMeSideBar } from './navConfig/about-me.nav.mts';
+import { learningResourcesNav } from './navConfig/learning-resources.nav.mts';
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
@@ -34,6 +35,7 @@ export default defineConfig({
       jottingsNav,
       bugsNav,
       interviewNav,
+      learningResourcesNav,
      ],
     sidebar: {
       ...baseNavSideBar,

@@ -9,7 +9,10 @@ function createSideBar() {
   return [
     {
       text: "面试和八股文",
-      items: [{ text: "总览", link: "/notes/interview/index" }],
+      items: [
+        { text: "总览", link: "/notes/interview/index" },
+        { text: "前端开发面试题库", link: "/notes/interview/frontend-interview-questions" },
+      ],
     },
   ];
 }

@@ -2,10 +2,6 @@ export const learningResourcesNav = {
   text: "博客教程",
   items: [
     {
-      text: "个人作品集",
-      link: "/notes/about-me/portfolio/index",
-    },
-    {
       text: "study-everyday",
       link: "https://jsmond2016.github.io/study-everyday/",
     },

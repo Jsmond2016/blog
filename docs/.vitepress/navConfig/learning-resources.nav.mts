@@ -29,5 +29,17 @@ export const learningResourcesNav = {
       text: "实战篇 | Electron 开发教程",
       link: "https://electron-tutorials.vercel.app/practice/",
     },
+    {
+      text: "实战篇 | Electron 开发教程",
+      link: "https://electron-tutorials.vercel.app/practice/",
+    },
+    {
+      text: "股票交易系统教程",
+      link: "https://stock-trade-sys.vercel.app/",
+    },
+    {
+      text: "PMP 备考教程",
+      link: "https://pmp-tutorials-eight.vercel.app/"
+    }
   ],
 } as const;

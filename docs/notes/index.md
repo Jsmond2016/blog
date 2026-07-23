@@ -17,6 +17,27 @@
 - TypeScript 与 Node.js：向工程开发过渡时常见的基础能力补充。
 - 框架与工程：前端路由、Vue 组件通信等项目实践主题。
 
+## 新增专题
+
+### 浏览器与网络
+
+- [浏览器从 HTML 到像素：渲染流水线与性能切入点](./browser/Browser-Rendering-Pipeline)
+- [Fetch 请求的完整生命周期：从发起请求到处理错误](./browser/Fetch-Request-Lifecycle)
+- [浏览器存储怎么选：Cookie、localStorage、sessionStorage 与 IndexedDB](./browser/Browser-Storage-Guide)
+- [内存泄漏排查入门：哪些引用没有被释放](./browser/Memory-Leak-Diagnosis)
+
+### CSS 与 JavaScript
+
+- [Flex 与 Grid：从一维到二维布局的选择](./css/Flex-and-Grid-Layout)
+- [JavaScript 异步执行：调用栈、任务队列与事件循环](./javascript/JavaScript-Event-Loop)
+- [JavaScript 异步并发控制：批量任务为什么不能一次全发](./javascript/JavaScript-Concurrency-Control)
+
+### 框架与类型系统
+
+- [Vue 3 响应式系统：ref、reactive、computed 与 watch 如何选择](./vue/Vue3-Reactivity-Guide)
+- [React 状态与副作用：什么时候该用 useState，什么时候不该用 useEffect](./react/React-State-and-Effects)
+- [TypeScript 在前端项目中的实用边界：建模、收窄与避免 any](./typescript/TypeScript-Practical-Modeling)
+
 ## 推荐阅读方式
 
 - 如果你在补基础，建议从“编程基础”和“JavaScript”开始；

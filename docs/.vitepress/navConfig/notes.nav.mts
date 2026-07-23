@@ -17,6 +17,76 @@ export const notesSideBar = {
         },
       ],
     },
+    {
+      text: "浏览器原理",
+      items: [
+        {
+          text: "浏览器从 HTML 到像素",
+          link: "/notes/browser/Browser-Rendering-Pipeline",
+        },
+        {
+          text: "Fetch 请求的完整生命周期",
+          link: "/notes/browser/Fetch-Request-Lifecycle",
+        },
+        {
+          text: "浏览器存储怎么选",
+          link: "/notes/browser/Browser-Storage-Guide",
+        },
+        {
+          text: "内存泄漏排查入门",
+          link: "/notes/browser/Memory-Leak-Diagnosis",
+        },
+      ],
+    },
+    {
+      text: "CSS 实践",
+      items: [
+        {
+          text: "Flex 与 Grid 布局选择",
+          link: "/notes/css/Flex-and-Grid-Layout",
+        },
+      ],
+    },
+    {
+      text: "JavaScript",
+      items: [
+        {
+          text: "JavaScript 异步执行与事件循环",
+          link: "/notes/javascript/JavaScript-Event-Loop",
+        },
+        {
+          text: "JavaScript 异步并发控制",
+          link: "/notes/javascript/JavaScript-Concurrency-Control",
+        },
+      ],
+    },
+    {
+      text: "Vue",
+      items: [
+        {
+          text: "Vue 3 响应式系统",
+          link: "/notes/vue/Vue3-Reactivity-Guide",
+        },
+      ],
+    },
+    {
+      text: "React",
+      items: [
+        {
+          text: "React 状态与副作用",
+          link: "/notes/react/React-State-and-Effects",
+        },
+      ],
+    },
+    {
+      text: "TypeScript",
+      items: [
+        {
+          text: "TypeScript 在前端项目中的实用边界",
+          link: "/notes/typescript/TypeScript-Practical-Modeling",
+        },
+      ],
+    },
   ],
   "/notes/common": [
     {
@@ -91,6 +161,10 @@ export const notesSideBar = {
           text: "CSS学习资源推荐",
           link: "/notes/css/CSS-Learning-Resources-Recommendation",
         },
+        {
+          text: "Flex 与 Grid 布局选择",
+          link: "/notes/css/Flex-and-Grid-Layout",
+        },
       ],
     },
   ],
@@ -113,6 +187,14 @@ export const notesSideBar = {
         {
           text: "JSONP",
           link: "/notes/javascript/JSONP",
+        },
+        {
+          text: "JavaScript 异步执行与事件循环",
+          link: "/notes/javascript/JavaScript-Event-Loop",
+        },
+        {
+          text: "JavaScript 异步并发控制",
+          link: "/notes/javascript/JavaScript-Concurrency-Control",
         },
       ],
     },
@@ -256,6 +338,10 @@ export const notesSideBar = {
         {
           text: "Typescript Enum 问题",
           link: "/notes/typescript/ts-enum-01",
+        },
+        {
+          text: "TypeScript 在前端项目中的实用边界",
+          link: "/notes/typescript/TypeScript-Practical-Modeling",
         },
       ],
     },

@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 查看代表作品
-      link: /notes/portfolio/index
+      link: /notes/about-me/portfolio/index
     - theme: brand
       text: 阅读学习笔记
-      link: /notes/base/index
+      link: /notes/index
     - theme: alt
       text: 了解我
       link: /notes/about-me/index

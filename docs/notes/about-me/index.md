@@ -19,6 +19,6 @@ date: 2026-04-11
 
 ## 你可以从这里开始了解我
 
-- 想看输出能力，可以先看[个人作品集](/notes/portfolio/index)；
-- 想看知识沉淀，可以先看[前端基础](/notes/base/index)和[前端进阶](/notes/advance/index)；
+- 想看输出能力，可以先看[个人作品集](/notes/about-me/portfolio/index)；
+- 想看知识沉淀，可以先看[技术文章](/notes/index)；
 - 想看日常思考和问题记录，可以再看[随笔文章](/notes/jottings/index)。

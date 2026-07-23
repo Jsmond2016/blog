@@ -12,9 +12,9 @@ tags:
 
 ## 先看什么
 
-- 如果你想快速了解我的输出风格，优先看[教程系列](/notes/portfolio/tutorials)。
-- 如果你更关心我做过什么实际工具，优先看[重点项目](/notes/portfolio/projects)。
-- 如果你想了解我的学习广度和持续性，可以看[其他站点笔记](/notes/portfolio/other-sites)。
+- 如果你想快速了解我的输出风格，优先看[教程系列](/notes/about-me/portfolio/tutorials)。
+- 如果你更关心我做过什么实际工具，优先看[重点项目](/notes/about-me/portfolio/projects)。
+- 如果你想了解我的学习广度和持续性，可以看[其他站点笔记](/notes/about-me/portfolio/other-sites)。
 
 ## 内容结构
 

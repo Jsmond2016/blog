@@ -1,66 +1,47 @@
-export const baseNav = {
-  text: "前端基础",
-  items: [
+export const notesSideBar = {
+  "/notes/": [
     {
-      text: "总览",
-      link: "/notes/base/index",
+      text: "技术文章",
+      items: [{ text: "文章总览", link: "/notes/index" }],
     },
     {
-      text: "编程基础",
-      link: "/notes/base/common",
-    },
-    {
-      text: "CSS",
-      link: "/notes/base/css",
-    },
-    {
-      text: "JavaScript",
-      link: "/notes/base/javascript",
-    },
-    {
-      text: "Chrome",
-      link: "/notes/base/chrome",
-    },
-    {
-      text: "Nodejs 系列",
-      link: "/notes/base/nodejs",
-    },
-    {
-      text: "Typescript",
-      link: "/notes/base/typescript",
-    },
-    {
-      text: "HTTP",
-      link: "/notes/base/http",
+      text: "框架与工程",
+      items: [
+        {
+          text: "浅谈前端路由",
+          link: "/notes/A-Brief-Discussion-Front-End-Router",
+        },
+        {
+          text: "Vue 的父子通信问题",
+          link: "/notes/Vue.js-Parent-Child-Communication-Issues",
+        },
+      ],
     },
   ],
-} as const;
-
-export const baseNavSideBar = {
-  "/notes/base/common": [
+  "/notes/common": [
     {
       text: "Linux",
       items: [
         {
           text: "编程基础",
-          link: "/notes/base/common/Program-Basics",
+          link: "/notes/common/Program-Basics",
         },
 
         {
           text: "Linux 常用命令行",
-          link: "/notes/base/common/Common-Linux-Commands-Summary",
+          link: "/notes/common/Common-Linux-Commands-Summary",
         },
         {
           text: "Vim 常用操作",
-          link: "/notes/base/common/Vim-Common-Operations",
+          link: "/notes/common/Vim-Common-Operations",
         },
         {
           text: "我的 vimrc 配置",
-          link: "/notes/base/common/Vimrc-Config",
+          link: "/notes/common/Vimrc-Config",
         },
         {
           text: "vscode-vim 配置",
-          link: "/notes/base/common/Vscode-Vim-Config",
+          link: "/notes/common/Vscode-Vim-Config",
         },
       ],
     },
@@ -69,89 +50,89 @@ export const baseNavSideBar = {
       items: [
         {
           text: "Git的常用操作",
-          link: "/notes/base/common/Git-Common-Operations",
+          link: "/notes/common/Git-Common-Operations",
         },
       ],
     },
   ],
-  "/notes/base/css": [
+  "/notes/css": [
     {
       text: "CSS",
       items: [
         {
           text: "CSS选择器",
-          link: "/notes/base/css/CSS-Selectors",
+          link: "/notes/css/CSS-Selectors",
         },
         {
           text: "CSS 常用样式-1",
-          link: "/notes/base/css/Common-CSS-Styles-Summary-1",
+          link: "/notes/css/Common-CSS-Styles-Summary-1",
         },
         {
           text: "CSS 常用样式-2",
-          link: "/notes/base/css/Common-CSS-Styles-Summary-2",
+          link: "/notes/css/Common-CSS-Styles-Summary-2",
         },
         {
           text: "CSS 常用样式-3浮动定位BFC边距合并",
-          link: "/notes/base/css/Common-CSS-Styles-Summary-3",
+          link: "/notes/css/Common-CSS-Styles-Summary-3",
         },
         {
           text: "响应式/移动端页面",
-          link: "/notes/base/css/CSS-Responsive-Page",
+          link: "/notes/css/CSS-Responsive-Page",
         },
         {
           text: "CSS深入浅出——动态REM",
-          link: "/notes/base/css/CSS-REM",
+          link: "/notes/css/CSS-REM",
         },
         {
           text: "CSS-宽度与高度",
-          link: "/notes/base/css/CSS-Width-Height",
+          link: "/notes/css/CSS-Width-Height",
         },
         {
           text: "CSS学习资源推荐",
-          link: "/notes/base/css/CSS-Learning-Resources-Recommendation",
+          link: "/notes/css/CSS-Learning-Resources-Recommendation",
         },
       ],
     },
   ],
-  "/notes/base/javascript": [
+  "/notes/javascript": [
     {
       text: "JavaScript",
       items: [
         {
           text: "全局变量污染和立即执行函数",
-          link: "/notes/base/javascript/Global-Variable-Pollution-and-Immediately-Invoked-Function-Expression",
+          link: "/notes/javascript/Global-Variable-Pollution-and-Immediately-Invoked-Function-Expression",
         },
         {
           text: "Dom 事件",
-          link: "/notes/base/javascript/DOM-Event-Model",
+          link: "/notes/javascript/DOM-Event-Model",
         },
         {
           text: "js面向对象--原型(Prototype)和原型链",
-          link: "/notes/base/javascript/Javascript-Prototype-Chain",
+          link: "/notes/javascript/Javascript-Prototype-Chain",
         },
         {
           text: "JSONP",
-          link: "/notes/base/javascript/JSONP",
+          link: "/notes/javascript/JSONP",
         },
       ],
     },
   ],
-  "/notes/base/chrome/": [
+  "/notes/chrome/": [
     {
       text: "Chrome",
       items: [
         {
           text: "Cookie 小知识",
-          link: "/notes/base/chrome/Cookie",
+          link: "/notes/chrome/Cookie",
         },
         {
           text: "Cookie-Session-Cache-Control",
-          link: "/notes/base/chrome/Cookie-Session-Cache-Control",
+          link: "/notes/chrome/Cookie-Session-Cache-Control",
         },
       ],
     },
   ],
-  "/notes/base/nodejs": [
+  "/notes/nodejs": [
     {
       text: "Nodejs 系列",
       items: [
@@ -160,7 +141,7 @@ export const baseNavSideBar = {
           items: [
             {
               text: "nodejs如何读取文件夹目录的内容",
-              link: "/notes/base/nodejs/nodejs-fs-readdir",
+              link: "/notes/nodejs/nodejs-fs-readdir",
             },
           ],
         },
@@ -170,70 +151,70 @@ export const baseNavSideBar = {
           items: [
             {
               text: "1-初始express",
-              link: "/notes/base/nodejs/express/express-01",
+              link: "/notes/nodejs/express/express-01",
             },
             {
               text: "2-了解后端路由",
-              link: "/notes/base/nodejs/express/express-02",
+              link: "/notes/nodejs/express/express-02",
             },
             {
               text: "3-配置静态资源",
-              link: "/notes/base/nodejs/express/express-03",
+              link: "/notes/nodejs/express/express-03",
             },
             // 4-解析请求体
             {
               text: "4-解析请求体",
-              link: "/notes/base/nodejs/express/express-04",
+              link: "/notes/nodejs/express/express-04",
             },
             // 5-文件上传-前端操作
             {
               text: "5-文件上传-前端操作",
-              link: "/notes/base/nodejs/express/express-05",
+              link: "/notes/nodejs/express/express-05",
             },
             // 6-文件上传-单名字单文件上传
             {
               text: "6-文件上传-单名字单文件上传",
-              link: "/notes/base/nodejs/express/express-06",
+              link: "/notes/nodejs/express/express-06",
             },
             // 7-文件上传-单名字多文件上传
             {
               text: "7-文件上传-单名字多文件上传",
-              link: "/notes/base/nodejs/express/express-07",
+              link: "/notes/nodejs/express/express-07",
             },
             // 8-文件上传-多名字多文件上传
             {
               text: "8-文件上传-多名字多文件上传",
-              link: "/notes/base/nodejs/express/express-08",
+              link: "/notes/nodejs/express/express-08",
             },
             // 9-cookie操作和设置
             {
               text: "9-cookie操作和设置",
-              link: "/notes/base/nodejs/express/express-09",
+              link: "/notes/nodejs/express/express-09",
             },
             // 10-session的设置和操作
             {
               text: "10-session的设置和操作",
-              link: "/notes/base/nodejs/express/express-10",
+              link: "/notes/nodejs/express/express-10",
             },
             // 12-art-template服务端渲染
             {
               text: "12-art-template服务端渲染",
-              link: "/notes/base/nodejs/express/express-12",
+              link: "/notes/nodejs/express/express-12",
             },
             // 13-中间件
             {
               text: "13-中间件",
-              link: "/notes/base/nodejs/express/express-13",
+              link: "/notes/nodejs/express/express-13",
             },
             // 14-了解MVC开发模式
             {
               text: "14-了解MVC开发模式",
-              link: "/notes/base/nodejs/express/express-14",
+              link: "/notes/nodejs/express/express-14",
             },
             // 15-了解token
             {
               text: "15-了解token",
-              link: "/notes/base/nodejs/express/express-15",
+              link: "/notes/nodejs/express/express-15",
             },
           ],
         },
@@ -242,39 +223,39 @@ export const baseNavSideBar = {
           items: [
             {
               text: "koa-study",
-              link: "/notes/base/nodejs/koa/koa-study",
+              link: "/notes/nodejs/koa/koa-study",
             },
           ],
         },
       ],
     },
   ],
-  "/notes/base/http": [
+  "/notes/http": [
     {
       text: "HTTP",
       items: [
         {
           text: "HTTP小记",
-          link: "/notes/base/http/HTTP-Basic",
+          link: "/notes/http/HTTP-Basic",
         },
         {
           text: "HTTP-Cache",
-          link: "/notes/base/http/HTTP-Cache",
+          link: "/notes/http/HTTP-Cache",
         },
         {
           text: "HTTP常见状态码",
-          link: "/notes/base/http/HTTP-Status-Code",
+          link: "/notes/http/HTTP-Status-Code",
         },
       ],
     },
   ],
-  "/notes/base/typescript": [
+  "/notes/typescript": [
     {
       text: "Typescript",
       items: [
         {
           text: "Typescript Enum 问题",
-          link: "/notes/base/typescript/ts-enum-01",
+          link: "/notes/typescript/ts-enum-01",
         },
       ],
     },

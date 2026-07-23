@@ -1,12 +1,11 @@
 import { defineConfig } from "vitepress";
-import { baseNav, baseNavSideBar } from "./navConfig/base.nav.mts";
-import { advanceNav, advanceNavSideBar } from './navConfig/advance.nav.mts';
-import { jottingsNav, jottingsNavSideBar } from './navConfig/jottings.nav.mts';
-import { bugsNav, bugsNavSideBar } from './navConfig/bugs.nav.mts';
+import { notesSideBar } from "./navConfig/notes.nav.mts";
+import { jottingsNavSideBar } from './navConfig/jottings.nav.mts';
+import { bugsNavSideBar } from './navConfig/bugs.nav.mts';
 import { interviewNav, interviewNavSideBar } from './navConfig/interview.nav.mts';
-import { portfolioNav, portfolioNavSideBar } from './navConfig/portfolio.nav.mts';
 import { aboutMeNav, aboutMeSideBar } from './navConfig/about-me.nav.mts';
 import { learningResourcesNav } from './navConfig/learning-resources.nav.mts';
+import { technicalArticlesNav } from './navConfig/technical-articles.nav.mts';
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
@@ -29,21 +28,15 @@ export default defineConfig({
     nav:[
       { text: "首页", link: "/" },
       aboutMeNav,
-      portfolioNav,
-      baseNav,
-      advanceNav,
-      jottingsNav,
-      bugsNav,
+      technicalArticlesNav,
       interviewNav,
       learningResourcesNav,
      ],
     sidebar: {
-      ...baseNavSideBar,
-      ...advanceNavSideBar,
+      ...notesSideBar,
       ...jottingsNavSideBar,
       ...bugsNavSideBar,
       ...interviewNavSideBar,
-      ...portfolioNavSideBar,
       ...aboutMeSideBar
     },
     socialLinks: [
